@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "make",
+      "setup": "chmod u+rx newtest.?",
+      "run": "make clean filesize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "newtest1",
+      "setup": "",
+      "run": "sh ./newtest.1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "newtest2",
+      "setup": "",
+      "run": "sh ./newtest.2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "newtest3",
+      "setup": "",
+      "run": "sh ./newtest.3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "newtest4",
+      "setup": "",
+      "run": "sh ./newtest.4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "newtest5",
+      "setup": "",
+      "run": "sh ./newtest.5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
